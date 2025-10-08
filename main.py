@@ -8,7 +8,6 @@ from google.api_core.exceptions import ResourceExhausted
 
 # Load environment variables
 load_dotenv()
-
 # Read API key from env
 API_KEY = os.getenv("GOOGLE_API_KEY")
 if not API_KEY:
