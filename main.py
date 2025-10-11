@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from deep_translator import GoogleTranslator
 from google.api_core.exceptions import ResourceExhausted
-
 # Load environment variables
 load_dotenv()
 # Read API key from env
